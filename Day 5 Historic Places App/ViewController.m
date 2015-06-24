@@ -115,10 +115,17 @@
 
     return cell;
 }
+
+-(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath{
+    HistoricPlace *place=self.places[indexPath.row];
+    [self alertHistoricPlace:place];
+}
+
 -(void)showMap{
     self.mapView.hidden=NO;
     self.tableView.hidden=YES;
 }
+
 -(void)showList{
     self.mapView.hidden=YES;
     self.tableView.hidden=NO;
