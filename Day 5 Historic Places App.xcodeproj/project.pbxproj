@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6F779F71B3A613A00A3EDD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F779F61B3A613A00A3EDD8 /* main.m */; };
+		F6F779FA1B3A613A00A3EDD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F779F91B3A613A00A3EDD8 /* AppDelegate.m */; };
+		F6F779FD1B3A613A00A3EDD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F779FC1B3A613A00A3EDD8 /* ViewController.m */; };
+		F6F77A001B3A613A00A3EDD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F779FE1B3A613A00A3EDD8 /* Main.storyboard */; };
+		F6F77A021B3A613A00A3EDD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F77A011B3A613A00A3EDD8 /* Images.xcassets */; };
+		F6F77A051B3A613A00A3EDD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6F77A031B3A613A00A3EDD8 /* LaunchScreen.xib */; };
+		F6F77A111B3A613A00A3EDD8 /* Day_5_Historic_Places_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F77A101B3A613A00A3EDD8 /* Day_5_Historic_Places_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6F77A0B1B3A613A00A3EDD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F779E91B3A613A00A3EDD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F779F01B3A613A00A3EDD8;
+			remoteInfo = "Day 5 Historic Places App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6F779F11B3A613A00A3EDD8 /* Day 5 Historic Places App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 5 Historic Places App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F779F51B3A613A00A3EDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F779F61B3A613A00A3EDD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6F779F81B3A613A00A3EDD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6F779F91B3A613A00A3EDD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6F779FB1B3A613A00A3EDD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6F779FC1B3A613A00A3EDD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6F779FF1B3A613A00A3EDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6F77A011B3A613A00A3EDD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6F77A041B3A613A00A3EDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F6F77A0A1B3A613A00A3EDD8 /* Day 5 Historic Places AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day 5 Historic Places AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F77A0F1B3A613A00A3EDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F77A101B3A613A00A3EDD8 /* Day_5_Historic_Places_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day_5_Historic_Places_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F779EE1B3A613A00A3EDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F77A071B3A613A00A3EDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6F779E81B3A613A00A3EDD8 = {
+			isa = PBXGroup;
+			children = (
+				F6F779F31B3A613A00A3EDD8 /* Day 5 Historic Places App */,
+				F6F77A0D1B3A613A00A3EDD8 /* Day 5 Historic Places AppTests */,
+				F6F779F21B3A613A00A3EDD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6F779F21B3A613A00A3EDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F779F11B3A613A00A3EDD8 /* Day 5 Historic Places App.app */,
+				F6F77A0A1B3A613A00A3EDD8 /* Day 5 Historic Places AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F779F31B3A613A00A3EDD8 /* Day 5 Historic Places App */ = {
+			isa = PBXGroup;
+			children = (
+				F6F779F81B3A613A00A3EDD8 /* AppDelegate.h */,
+				F6F779F91B3A613A00A3EDD8 /* AppDelegate.m */,
+				F6F779FB1B3A613A00A3EDD8 /* ViewController.h */,
+				F6F779FC1B3A613A00A3EDD8 /* ViewController.m */,
+				F6F779FE1B3A613A00A3EDD8 /* Main.storyboard */,
+				F6F77A011B3A613A00A3EDD8 /* Images.xcassets */,
+				F6F77A031B3A613A00A3EDD8 /* LaunchScreen.xib */,
+				F6F779F41B3A613A00A3EDD8 /* Supporting Files */,
+			);
+			path = "Day 5 Historic Places App";
+			sourceTree = "<group>";
+		};
+		F6F779F41B3A613A00A3EDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6F779F51B3A613A00A3EDD8 /* Info.plist */,
+				F6F779F61B3A613A00A3EDD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6F77A0D1B3A613A00A3EDD8 /* Day 5 Historic Places AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F77A101B3A613A00A3EDD8 /* Day_5_Historic_Places_AppTests.m */,
+				F6F77A0E1B3A613A00A3EDD8 /* Supporting Files */,
+			);
+			path = "Day 5 Historic Places AppTests";
+			sourceTree = "<group>";
+		};
+		F6F77A0E1B3A613A00A3EDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6F77A0F1B3A613A00A3EDD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6F779F01B3A613A00A3EDD8 /* Day 5 Historic Places App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F77A141B3A613A00A3EDD8 /* Build configuration list for PBXNativeTarget "Day 5 Historic Places App" */;
+			buildPhases = (
+				F6F779ED1B3A613A00A3EDD8 /* Sources */,
+				F6F779EE1B3A613A00A3EDD8 /* Frameworks */,
+				F6F779EF1B3A613A00A3EDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day 5 Historic Places App";
+			productName = "Day 5 Historic Places App";
+			productReference = F6F779F11B3A613A00A3EDD8 /* Day 5 Historic Places App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6F77A091B3A613A00A3EDD8 /* Day 5 Historic Places AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F77A171B3A613A00A3EDD8 /* Build configuration list for PBXNativeTarget "Day 5 Historic Places AppTests" */;
+			buildPhases = (
+				F6F77A061B3A613A00A3EDD8 /* Sources */,
+				F6F77A071B3A613A00A3EDD8 /* Frameworks */,
+				F6F77A081B3A613A00A3EDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F77A0C1B3A613A00A3EDD8 /* PBXTargetDependency */,
+			);
+			name = "Day 5 Historic Places AppTests";
+			productName = "Day 5 Historic Places AppTests";
+			productReference = F6F77A0A1B3A613A00A3EDD8 /* Day 5 Historic Places AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F779E91B3A613A00A3EDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Daniyar Mukhanov";
+				TargetAttributes = {
+					F6F779F01B3A613A00A3EDD8 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					F6F77A091B3A613A00A3EDD8 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = F6F779F01B3A613A00A3EDD8;
+					};
+				};
+			};
+			buildConfigurationList = F6F779EC1B3A613A00A3EDD8 /* Build configuration list for PBXProject "Day 5 Historic Places App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6F779E81B3A613A00A3EDD8;
+			productRefGroup = F6F779F21B3A613A00A3EDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6F779F01B3A613A00A3EDD8 /* Day 5 Historic Places App */,
+				F6F77A091B3A613A00A3EDD8 /* Day 5 Historic Places AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6F779EF1B3A613A00A3EDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F77A001B3A613A00A3EDD8 /* Main.storyboard in Resources */,
+				F6F77A051B3A613A00A3EDD8 /* LaunchScreen.xib in Resources */,
+				F6F77A021B3A613A00A3EDD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F77A081B3A613A00A3EDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6F779ED1B3A613A00A3EDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F779FD1B3A613A00A3EDD8 /* ViewController.m in Sources */,
+				F6F779FA1B3A613A00A3EDD8 /* AppDelegate.m in Sources */,
+				F6F779F71B3A613A00A3EDD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F77A061B3A613A00A3EDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F77A111B3A613A00A3EDD8 /* Day_5_Historic_Places_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6F77A0C1B3A613A00A3EDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F779F01B3A613A00A3EDD8 /* Day 5 Historic Places App */;
+			targetProxy = F6F77A0B1B3A613A00A3EDD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6F779FE1B3A613A00A3EDD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F779FF1B3A613A00A3EDD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6F77A031B3A613A00A3EDD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F77A041B3A613A00A3EDD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6F77A121B3A613A00A3EDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6F77A131B3A613A00A3EDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F77A151B3A613A00A3EDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 5 Historic Places App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6F77A161B3A613A00A3EDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Day 5 Historic Places App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6F77A181B3A613A00A3EDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Day 5 Historic Places AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 5 Historic Places App.app/Day 5 Historic Places App";
+			};
+			name = Debug;
+		};
+		F6F77A191B3A613A00A3EDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Day 5 Historic Places AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day 5 Historic Places App.app/Day 5 Historic Places App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6F779EC1B3A613A00A3EDD8 /* Build configuration list for PBXProject "Day 5 Historic Places App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F77A121B3A613A00A3EDD8 /* Debug */,
+				F6F77A131B3A613A00A3EDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F77A141B3A613A00A3EDD8 /* Build configuration list for PBXNativeTarget "Day 5 Historic Places App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F77A151B3A613A00A3EDD8 /* Debug */,
+				F6F77A161B3A613A00A3EDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6F77A171B3A613A00A3EDD8 /* Build configuration list for PBXNativeTarget "Day 5 Historic Places AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F77A181B3A613A00A3EDD8 /* Debug */,
+				F6F77A191B3A613A00A3EDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6F779E91B3A613A00A3EDD8 /* Project object */;
+}
