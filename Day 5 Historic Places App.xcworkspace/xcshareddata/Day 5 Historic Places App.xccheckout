@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D082DEDB-E18C-4400-A99B-3E0F5D34A1E2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Day 5 Historic Places App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>20555B0B3E48FE03F3553B1CBCB82AE1ECFC43E3</key>
+		<string>https://github.com/daniyarmukhanov/Day-5-Historic-Places-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Day 5 Historic Places App.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>20555B0B3E48FE03F3553B1CBCB82AE1ECFC43E3</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/daniyarmukhanov/Day-5-Historic-Places-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>20555B0B3E48FE03F3553B1CBCB82AE1ECFC43E3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>20555B0B3E48FE03F3553B1CBCB82AE1ECFC43E3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Day%205%20Historic%20Places%20App</string>
+		</dict>
+	</array>
+</dict>
+</plist>

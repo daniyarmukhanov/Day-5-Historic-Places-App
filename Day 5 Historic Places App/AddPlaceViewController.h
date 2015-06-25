@@ -7,7 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "HistoricPlace.h"
+
+@protocol AddPlaceViewControllerDelegate <NSObject>
+
+-(void)didAddPlace:(HistoricPlace *)place;
+
+@end
 
 @interface AddPlaceViewController : ViewController
-
+@property (weak)id <AddPlaceViewControllerDelegate> delegate;
 @end

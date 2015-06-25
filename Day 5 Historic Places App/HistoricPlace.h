@@ -12,6 +12,7 @@
 @property (nonatomic) NSString *name;
 @property (nonatomic) CLLocationCoordinate2D coordinate;
 @property (nonatomic) NSString *desc;
+@property (nonatomic) UIImage *picture;
 
 -(instancetype) initWithName: (NSString *)name andLocation:(CLLocationCoordinate2D )coordinate andDescription:(NSString *) description;
 @end

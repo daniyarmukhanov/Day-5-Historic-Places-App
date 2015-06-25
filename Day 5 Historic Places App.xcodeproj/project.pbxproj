@@ -17,6 +17,7 @@
 		F6F77A111B3A613A00A3EDD8 /* Day_5_Historic_Places_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F77A101B3A613A00A3EDD8 /* Day_5_Historic_Places_AppTests.m */; };
 		F6F77A1B1B3A61D000A3EDD8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6F77A1A1B3A61D000A3EDD8 /* MapKit.framework */; };
 		F6F77A1E1B3A662900A3EDD8 /* HistoricPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F77A1D1B3A662900A3EDD8 /* HistoricPlace.m */; };
+		F6F77A221B3AA0B000A3EDD8 /* AddPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F77A211B3AA0B000A3EDD8 /* AddPlaceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		F6F77A1C1B3A662900A3EDD8 /* HistoricPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoricPlace.h; sourceTree = "<group>"; };
 		F6F77A1D1B3A662900A3EDD8 /* HistoricPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoricPlace.m; sourceTree = "<group>"; };
 		F6F77A1F1B3A6CD300A3EDD8 /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = podfile; path = "Day 5 Historic Places App/podfile"; sourceTree = "<group>"; };
+		F6F77A201B3AA0B000A3EDD8 /* AddPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPlaceViewController.h; sourceTree = "<group>"; };
+		F6F77A211B3AA0B000A3EDD8 /* AddPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPlaceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				F6F77A1C1B3A662900A3EDD8 /* HistoricPlace.h */,
 				F6F77A1D1B3A662900A3EDD8 /* HistoricPlace.m */,
 				F6F779FE1B3A613A00A3EDD8 /* Main.storyboard */,
+				F6F77A201B3AA0B000A3EDD8 /* AddPlaceViewController.h */,
+				F6F77A211B3AA0B000A3EDD8 /* AddPlaceViewController.m */,
 				F6F77A011B3A613A00A3EDD8 /* Images.xcassets */,
 				F6F77A031B3A613A00A3EDD8 /* LaunchScreen.xib */,
 				F6F779F41B3A613A00A3EDD8 /* Supporting Files */,
@@ -290,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F77A1E1B3A662900A3EDD8 /* HistoricPlace.m in Sources */,
+				F6F77A221B3AA0B000A3EDD8 /* AddPlaceViewController.m in Sources */,
 				F6F779FD1B3A613A00A3EDD8 /* ViewController.m in Sources */,
 				F6F779FA1B3A613A00A3EDD8 /* AppDelegate.m in Sources */,
 				F6F779F71B3A613A00A3EDD8 /* main.m in Sources */,

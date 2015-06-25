@@ -9,6 +9,10 @@
 #import "AddPlaceViewController.h"
 
 @interface AddPlaceViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UITextField *descField;
+@property (weak, nonatomic) IBOutlet UITextField *latField;
+@property (weak, nonatomic) IBOutlet UITextField *longField;
 
 @end
 
@@ -22,6 +26,16 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)addButtonPressed:(UIButton *)sender {
+    HistoricPlace *place=[HistoricPlace new];
+    place.name=self.nameField.text;
+    place.desc=self.descField.text;
+    double lat=[self.latField.text doubleValue];
+    double longit=[self.longField.text doubleValue];
+    place.coordinate=CLLocationCoordinate2DMake(lat, longit);
+    [self.delegate didAddPlace:place];
+    
 }
 
 /*
